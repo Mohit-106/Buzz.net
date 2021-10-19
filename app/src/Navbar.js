@@ -8,15 +8,16 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <div className="container-fluid nav_bg sticky-top">
+      <div className="container-fluid nav_bg ">
         <div className="row">
           <div className="col-10 mx-auto">
-            <nav className="navbar navbar-expand-lg  ">
+            <nav className="navbar navbar-expand-lg sticky-top">
               <NavLink className="navbar-brand " to="/">
                 <strong className="mynavbar">Buzz.net</strong>
               </NavLink>
               <button
-                className="navbar-toggler"
+                id="nav-toggle-button"
+                className="navbar-toggler "
                 type="button"
                 data-toggle="collapse"
                 data-target="#navbarNav"

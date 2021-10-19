@@ -12,6 +12,8 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 
 
+
+
 import {Switch,Route} from "react-router-dom";
 import Navbar from "./Navbar";
 function App() {
@@ -21,6 +23,8 @@ function App() {
       <>
       <Navbar/>
       
+      
+     
 
       <Switch>
         
